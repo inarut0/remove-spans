@@ -1,7 +1,5 @@
 console.log("Script loaded successfully!");
-(function() {
-    
-// remove_spans.js hosted externally
+
 (function() {
     'use strict';
 
@@ -9,5 +7,4 @@ console.log("Script loaded successfully!");
     elementsToRemove.forEach(function(element) {
         element.remove();
     });
-})();
 })();
